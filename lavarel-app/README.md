@@ -7,22 +7,28 @@ There is no need to display the result of the votes. Users should not see the sa
 The app will use cookies to track if a user has voted for a joke. It is okay if the user clears their cookies and votes again.
 
 The app use MVC pattern and Service-Repository Pattern.
+
 The request goes to the Controller, it controls through the corresponding Service, and the service will call into the appropriate Repository.
+
 This will increase the application's security, scalability, maintainability, and testing capabilities.
 
 ## Installation
 Clone App
-git clone https://github.com/dungdinhhaha/exercise.git
+-git clone https://github.com/dungdinhhaha/exercise.git
 
 Go to the Laravel app and configure the database. Then, enter the following commands into the terminal:
 
-php artisan migrate
-php artisan db:seed
-php artisan serve
+-php artisan migrate
+-php artisan db:seed
+-php artisan serve
 
 ## How to use
 Access the application through your web browser.
+
 A joke will be displayed.
+
 Read the joke and choose "Like" or "Dislike".
+
 Another joke will be displayed.
+
 Repeat steps to there are no more jokes to display
