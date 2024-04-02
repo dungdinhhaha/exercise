@@ -20,8 +20,8 @@
             <div class="header-mid">
                 <img src="{{ URL::asset('assets/image/logo.png') }}" alt="">
                 <div class="header-mid-name">
-                        <p>Handcrafted by</p>
-                        <p style="text-align: right">Jim HLS</p>
+                    <p style="font-style: italic;font-weight:100">Handcrafted by</p>
+                    <p style="text-align: right">Jim HLS</p>
                 </div>
             </div>
             <div class="header-right">
@@ -64,7 +64,8 @@
         </div>
         <div class="footer">
             <div class="footer-text">
-                Teacher: "Kids,what does the chicken give you?" Student: "Meat!" Teacher: "Very good! Now what does the pig give you?" Student: "Bacon!" Teacher: "Great! And what does the fat cow give you?" Student: "Homework!"
+                <p>This website is created as part of Hlsolutions program. The materials contained on this website are provided for general information only and do not constitute any form of advice. HLS assumes no responsibility for the accurace of any particular statement and accepts no liability for any loss or damange which may arise from reliance on the information contained on this website</p>
+                <p style="font-weight:bold">Copyright 2021 HLS</p>
         </div>
             
         </div>
